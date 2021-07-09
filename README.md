@@ -15,4 +15,4 @@ Run these files:
 
 - `04_Negative_Binomial.R`:  reproduces supplementary Figure 1..
 
-The `R` folder contains a set of costum functions needed to run the code.
+The `R` folder contains a set of custom functions needed to run the code.
