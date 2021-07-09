@@ -6,10 +6,9 @@
 #' @param gamma.cand 
 #' @param alpha.cand 
 #'
-#' @return
+#' @return the log-likelihood values, range and maximum
 #' @export
 #'
-#' @examples
 find_exact_likelihoods <- function(events, model, 
                                    beta.cand, gamma.cand = NULL, alpha.cand = NULL, N=NULL,
                                    other_pars = NULL){

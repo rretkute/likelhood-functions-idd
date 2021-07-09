@@ -7,7 +7,7 @@
 #' @return dataframe with event timing, indicators and sizes of compartments
 #' @export
 #'
-#' @examples
+#'
 COVID19_stochastic_model<-function(parameters, initial_state, tmax){
   
   ## All events are coded using three indexes:

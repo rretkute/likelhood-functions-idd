@@ -6,10 +6,10 @@
 #' @param gamma.cand 
 #' @param alpha.cand 
 #'
-#' @return
+#' @return the log-likelihood values, range and maximum
 #' @export
 #'
-#' @examples
+#'
 find_poisson_likelihoods <- function(obs, model, initial_state, tmax, dt,
                                      beta.cand, gamma.cand = NULL, alpha.cand = NULL,
                                      N=NULL, other_pars = NULL){

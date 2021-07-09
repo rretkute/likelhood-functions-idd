@@ -3,11 +3,11 @@
 #' @param sim 
 #' @param obs 
 #'
-#' @return
+#' @return log-likelihood value
 #' @export
 #'
-#' @examples
-lll_obs_pois<-function(sim, obs){
-  L<-sum(dpois(obs, sim, log = TRUE))
+#' 
+lll_obs_pois <- function(sim, obs){
+  L <- sum(dpois(obs, sim, log = TRUE))
   return(L)
 }

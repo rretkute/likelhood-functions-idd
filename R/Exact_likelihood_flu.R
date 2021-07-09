@@ -1,12 +1,12 @@
 #' Exact likelihood for flu
 #'
-#' @param events observed infection and removal times, indicators, number of susceptible and infectious at time of obervation 
+#' @param events observed infection and removal times, indicators, number of susceptible and infectious at time of observation 
 #' @param parameters
 #'
-#' @return
+#' @return log-likelihood value
 #' @export
 #'
-#' @examples
+#'
 lll_exact_flu<-function(events, parameters){
   events<-events[order(events$time),]
   L<-0

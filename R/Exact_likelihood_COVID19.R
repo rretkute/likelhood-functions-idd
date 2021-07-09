@@ -1,13 +1,13 @@
 #' Exact likelihood for flu
 #'
-#' @param events observed infection and removal times, indicators, number of susceptible and infectious at time of obervation 
+#' @param events observed infection and removal times, indicators, number of susceptible and infectious at time of observation 
 #' @param parameters
 #'
-#' @return
+#' @return log-likelihood value
 #' @export
 #'
 #' @import statip
-#' @examples
+#' 
 lll_exact_COVID19<-function(events, parameters){
   events<-events[order(events$time),]
   L<-0

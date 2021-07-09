@@ -6,7 +6,7 @@
 #' @param dt Time aggregation interval (days)
 #' @param model 
 #'
-#' @return Infectioius events and data aggregated at a population level
+#' @return Infectious events and data aggregated at a population level
 #' @export
 #'
 #' @examples

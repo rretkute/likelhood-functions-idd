@@ -6,7 +6,7 @@
 #' @param dt Time aggregation interval (days)
 #' @param model 
 #'
-#' @return
+#' @return solution to ODE model
 #' @export
 #'
 #' @examples

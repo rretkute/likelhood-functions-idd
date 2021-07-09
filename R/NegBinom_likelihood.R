@@ -6,7 +6,7 @@
 #' @param gamma.cand 
 #' @param alpha.cand 
 #'
-#' @return
+#' @return the log-likelihood values, range and maximum
 #' @export
 #'
 #' @examples

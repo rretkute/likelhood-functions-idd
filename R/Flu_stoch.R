@@ -4,11 +4,11 @@
 #' @param initial_state 
 #' @param tmax 
 #'
-#' @return
-#' @export
+#' @return events simulated
+#' @export 
 #'
-#' @examples
-Flu_stochastic_model<-function(parameters, initial_state, tmax){
+#'
+Flu_stochastic_model <- function(parameters, initial_state, tmax){
   # eta: 1 if S->I, 0 if I->R
   
   # assign numbers in each state for first time step

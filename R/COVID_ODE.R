@@ -4,10 +4,10 @@
 #' @param x 
 #' @param parameters 
 #'
-#' @return
+#' @return list of derivatives
 #' @export
 #'
-#' @examples
+#
 COVID_ODE <- function(t, x, parameters){ 
   
   S <- x[1] # Susceptible
