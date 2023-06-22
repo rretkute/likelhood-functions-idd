@@ -1,4 +1,4 @@
-#' Exact likelihood for trachoma
+#' Process based likelihood for trachoma
 #'
 #' @param events observed infection and removal times, indicators, number of susceptible and infectious at time of obervation 
 #' @param parameters
