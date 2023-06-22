@@ -1,4 +1,4 @@
-#' Trachoma Stochastic model
+#' Stochastic Trachoma model
 #'
 #' @param parameters 
 #' @param initial_state 
