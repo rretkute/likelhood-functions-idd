@@ -134,7 +134,7 @@ fig4<-ggplot(ans2) +
 
 f<-grid.arrange(fig1, fig2, fig3, fig4, ncol = 2)
 
-ggsave("leprosy.tiff",plot = f, 
+ggsave("Figure_3.tiff",plot = f, 
        width = 8, height = 6)
 
 end_time = Sys.time()
