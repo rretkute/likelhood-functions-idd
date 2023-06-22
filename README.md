@@ -12,4 +12,4 @@ Run these files:
 - `02_Leprosy.R`:  reproduces Figure 3.
 
 
-Approximate running time on a MacBook Pro with 2.4GHz 8-Core processor is: 5 minutes for Figure 1, 25 minutes for Figure 2 and xx minutes for Figure 3.
+Approximate running times on a MacBook Pro with 2.4GHz 8-Core processor is: 5 minutes for Figure 1, 25 minutes for Figure 2 and xx minutes for Figure 3.
