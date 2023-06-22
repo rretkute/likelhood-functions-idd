@@ -125,7 +125,7 @@ fig4<-ggplot(ans2) +
 
 f<-grid.arrange(fig1, fig2, fig3, fig4, ncol = 2)
 
-ggsave("trachoma.tiff",plot = f, 
+ggsave("Figure_1.tiff",plot = f, 
        width = 8, height = 6)
 
 end_time = Sys.time()
@@ -220,7 +220,7 @@ f<-ggplot(elm.prm, aes(x=prev, y=elim))+
   xlab("Pre-treatment prevalence (%)") + ylab("Years until elimination")+
   theme_bw()
 
-ggsave("trachoma_elim.tiff",plot = f, 
+ggsave("Figure_2.tiff",plot = f, 
        width = 8, height = 3)
 
 end_time = Sys.time()
