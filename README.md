@@ -1,4 +1,4 @@
-# Formulating likelihood functions for infectious disease dynamics
+# Formulating likelihood functions for infectious disease dynamics for neglected tropical diseases
 
 
 This is the R code associated with the paper,  Retkute, Minter and Hollingsworth "Formulating likelihood functions for infectious disease dynamics for neglected tropical diseases".
