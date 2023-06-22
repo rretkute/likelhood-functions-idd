@@ -12,4 +12,4 @@ Run these files:
 - `02_Leprosy.R`:  reproduces Figure 3.
 
 
-The `R` folder contains a set of custom functions needed to run the code.
+Approximate running time on a MacBook Pro with 2.4GHz 8-Core processor is: 5 minutes for Figure 1, 25 minutes for Figure 2 and 10 minutes for Figure 3.
