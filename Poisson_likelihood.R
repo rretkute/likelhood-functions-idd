@@ -1,4 +1,4 @@
-#' Poisson likelihood
+#' Calculate likelihood for Poisson distributed observations
 #'
 #' @param sim 
 #' @param obs 
