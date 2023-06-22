@@ -1,4 +1,4 @@
-#' Trachoma model
+#' Deterministic Trachoma model
 #'
 #' @param t 
 #' @param x 
